@@ -7,26 +7,26 @@ Data have been normalized by using the Z-normalization method and divided into t
 
 Attribute Information:
 
-## F1: intercolumnar distance
-## F2: upper margin
-## F3: lower margin
-## F4: exploitation
-## F5: row number
-## F6: modular ratio
-## F7: interlinear spacing
-## F8: weight
-## F9: peak number
-## F10: modular ratio/ interlinear spacing
-## Class: A, B, C, D, E, F, G, H, I, W, X, Y
+**F1: intercolumnar distance
+F2: upper margin
+F3: lower margin
+F4: exploitation
+F5: row number
+F6: modular ratio
+F7: interlinear spacing
+F8: weight
+F9: peak number
+F10: modular ratio/ interlinear spacing
+Class: A, B, C, D, E, F, G, H, I, W, X, Y**
 
 # Methodlogy
 
 The dataset is split into training and testing set for 10 times and the following SVC classifier hyperparameter are selected for best accuracy:
 
-Kernel -  Different kernel functions to model non-linear relationships between the input variables and the output variableSelected from RBF, Polynomial, Linear and Sigmoid
-C (Regularisation parameter) - It is used to set the tolerance of the model to allow the misclassification of data points in order to achieve lower generalization error. Higher the value of C, lesser is the tolerance and what is trained is a maximum-margin classifier. Smaller the value of C, larger is the tolerance of misclassificationRandom integer values from 1 to 6
-Gamma (Kernel coefficient) - The gamma parameter defines how far the influence of a single training example reaches, with low values meaning ‘far’ and high values meaning ‘close’. The lower values of gamma result in models with lower accuracy and the same as the higher values of gamma. It is the intermediate values of gamma which gives a model with good decision boundaries.Random integer values from -1 to 6. If the value is less than 1, then gamma is randomly set as auto or scale. It is used only by rbf, poly and sigmoid kernel.
-Degree - Random integer from 1 to 5. It is only used by poly kernel and represent the degree of polynomial kernel function.
+**Kernel** -  Different kernel functions to model non-linear relationships between the input variables and the output variableSelected from RBF, Polynomial, Linear and Sigmoid
+**C** (Regularisation parameter) - It is used to set the tolerance of the model to allow the misclassification of data points in order to achieve lower generalization error. Higher the value of C, lesser is the tolerance and what is trained is a maximum-margin classifier. Smaller the value of C, larger is the tolerance of misclassificationRandom integer values from 1 to 6
+**Gamma** (Kernel coefficient) - The gamma parameter defines how far the influence of a single training example reaches, with low values meaning ‘far’ and high values meaning ‘close’. The lower values of gamma result in models with lower accuracy and the same as the higher values of gamma. It is the intermediate values of gamma which gives a model with good decision boundaries.Random integer values from -1 to 6. If the value is less than 1, then gamma is randomly set as auto or scale. It is used only by rbf, poly and sigmoid kernel.
+**Degree** - Random integer from 1 to 5. It is only used by poly kernel and represent the degree of polynomial kernel function.
 
 
 # OBSERVATIONS
@@ -46,12 +46,13 @@ Degree - Random integer from 1 to 5. It is only used by poly kernel and represen
 
 # GRAPH
 
-<img width="598" alt="image" src="https://user-images.githubusercontent.com/102228647/233160599-d44cfd62-f9bb-4979-999c-0d3c42c673b0.png">
+<img width="431" alt="image" src="https://user-images.githubusercontent.com/102228647/233161977-12cbe2ac-fb6e-486c-8995-ce28a31f17ff.png">
+
 
 # RESULT
 
-## KERNAL: RBF
-## C:5
-## GAMMA:1
-## DEGREE :1 
-## Accuracy : 0.771492
+**KERNAL: RBF
+ C:5
+ GAMMA:1
+ DEGREE :1 
+ Accuracy : 0.771492
