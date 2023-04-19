@@ -7,17 +7,17 @@ Data have been normalized by using the Z-normalization method and divided into t
 
 Attribute Information:
 
-**F1: intercolumnar distance**
+**F1: intercolumnar distance**<br>
 **F2: upper margin**<br>
-**F3: lower margin**
-**F4: exploitation**
-**F5: row number**
-**F6: modular ratio**
-**F7: interlinear spacing**
-**F8: weight**
-**F9: peak number**
-**F10: modular ratio/ interlinear spacing**
-**Class: A, B, C, D, E, F, G, H, I, W, X, Y**
+**F3: lower margin**<br>
+**F4: exploitation**<br>
+**F5: row number**<br>
+**F6: modular ratio**<br>
+**F7: interlinear spacing**<br>
+**F8: weight**<br>
+**F9: peak number**<br>
+**F10: modular ratio/ interlinear spacing**<br>
+**Class: A, B, C, D, E, F, G, H, I, W, X, Y**<br>
 
 # Methodlogy
 
@@ -51,8 +51,8 @@ The dataset is split into training and testing set for 10 times and the followin
 
 # RESULT
 
-**KERNAL: RBF**
-**C:5**
-**GAMMA:1**
-**DEGREE :1** 
-**Accuracy : 0.771492**
+**KERNAL: RBF**<br>
+**C:5**<br>
+**GAMMA:1**<br>
+**DEGREE :1** <br>
+**Accuracy : 0.771492**<br>
