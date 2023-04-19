@@ -23,10 +23,10 @@ Attribute Information:
 
 The dataset is split into training and testing set for 10 times and the following SVC classifier hyperparameter are selected for best accuracy:
 
-**Kernel** -  Different kernel functions to model non-linear relationships between the input variables and the output variableSelected from RBF, Polynomial, Linear and Sigmoid
-**C** (Regularisation parameter) - It is used to set the tolerance of the model to allow the misclassification of data points in order to achieve lower generalization error. Higher the value of C, lesser is the tolerance and what is trained is a maximum-margin classifier. Smaller the value of C, larger is the tolerance of misclassificationRandom integer values from 1 to 6
-**Gamma** (Kernel coefficient) - The gamma parameter defines how far the influence of a single training example reaches, with low values meaning ‘far’ and high values meaning ‘close’. The lower values of gamma result in models with lower accuracy and the same as the higher values of gamma. It is the intermediate values of gamma which gives a model with good decision boundaries.Random integer values from -1 to 6. If the value is less than 1, then gamma is randomly set as auto or scale. It is used only by rbf, poly and sigmoid kernel.
-**Degree** - Random integer from 1 to 5. It is only used by poly kernel and represent the degree of polynomial kernel function.
+**Kernel** -  Different kernel functions to model non-linear relationships between the input variables and the output variableSelected from RBF, Polynomial, Linear and Sigmoid<br>
+**C** (Regularisation parameter) - It is used to set the tolerance of the model to allow the misclassification of data points in order to achieve lower generalization error. Higher the value of C, lesser is the tolerance and what is trained is a maximum-margin classifier. Smaller the value of C, larger is the tolerance of misclassificationRandom integer values from 1 to 6<br>
+**Gamma** (Kernel coefficient) - The gamma parameter defines how far the influence of a single training example reaches, with low values meaning ‘far’ and high values meaning ‘close’. The lower values of gamma result in models with lower accuracy and the same as the higher values of gamma. It is the intermediate values of gamma which gives a model with good decision boundaries.Random integer values from -1 to 6. If the value is less than 1, then gamma is randomly set as auto or scale. It is used only by rbf, poly and sigmoid kernel.<br>
+**Degree** - Random integer from 1 to 7. It is only used by poly kernel and represent the degree of polynomial kernel function.<br>
 
 
 # OBSERVATIONS
