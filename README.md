@@ -8,7 +8,7 @@ Data have been normalized by using the Z-normalization method and divided into t
 Attribute Information:
 
 **F1: intercolumnar distance**
-**F2: upper margin**--
+**F2: upper margin**<br>
 **F3: lower margin**
 **F4: exploitation**
 **F5: row number**
